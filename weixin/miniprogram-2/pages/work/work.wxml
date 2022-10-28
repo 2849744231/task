@@ -1,0 +1,38 @@
+<!--pages/work/work.wxml-->
+<!-- 轮播区域 -->
+<view class="top">
+    <swiper 
+        indicator-dots 
+        autoplay  
+        interval="2000" 
+        circular
+        indicator-active-color="#86c100"   
+    >
+        <swiper-item wx:for="{{swiperImgList}}" wx:key="index">
+            <image src="{{item.imageUrl}}"></image>
+        </swiper-item>
+    </swiper>
+</view>
+<!-- 功能123区域 -->
+<view class="menuOne">
+    <view class="menuOne-area">
+        <view wx:for="{{menu123}}"  wx:key="index">
+            <image src="{{item.imageUrl}}"></image>
+            <text>功能{{index+1}}</text>
+        </view>
+    </view>
+</view>
+<!-- 功能ABC区域 -->
+<view class="menuABC">
+    <view class="menuABC-area">
+        <block wx:for="{{menuABC}}" wx:key="index">
+            <view  bindtap="tapView" data-ind="{{index}}">
+                <image src="{{item.imageUrl}}"></image>
+                <text>功能{{item.ABC}}</text>
+            </view>
+        </block>       
+    </view>
+</view>
+
+
+

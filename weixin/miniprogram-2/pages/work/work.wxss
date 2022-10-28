@@ -1,0 +1,32 @@
+/* pages/work/work.wxss */
+.top swiper-item image{
+    height: 100%;
+}
+.menuOne{
+    height: 145rpx;
+    background-color: #262b3a;
+}
+.menuOne .menuOne-area{
+    display: flex;
+    justify-content: space-around;
+}
+.menuOne .menuOne-area view,
+.menuABC .menuABC-area view{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.menuOne .menuOne-area view image{
+    width: 100rpx;
+    height: 100rpx;
+}
+.menuABC .menuABC-area view image{
+    width: 135rpx;
+    height: 135rpx;
+}
+.menuABC .menuABC-area view{
+    float: left;
+    margin: 23rpx 0 0 39rpx;
+}
+

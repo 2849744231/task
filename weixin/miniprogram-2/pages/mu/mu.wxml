@@ -1,0 +1,12 @@
+<!--pages/mu/mu.wxml-->
+<view class="Pop-up">
+    <view class="cen">
+        <view class="head">功能A</view>
+        <view>
+            <view wx:for="{{opImg}}" wx:key="index">
+                <image src="{{item.imageUrl}}"></image>
+                <text>功能{{index+1}}</text>
+            </view>
+        </view>
+    </view>  
+</view>

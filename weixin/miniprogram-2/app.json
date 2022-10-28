@@ -1,0 +1,49 @@
+{
+    "pages": [
+        "pages/work/work",
+        "pages/assistant/assistant",
+        "pages/test1/test1",
+        "pages/test2/test2",
+        "pages/mu/mu"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#262b3a",
+        "navigationBarTitleText": "早上好，张三先生！",
+        "navigationBarTextStyle": "white"
+    },
+    "tabBar": {
+        "position": "bottom",
+        "color": "#999",
+        "selectedColor": "#88c00",
+        "backgroundColor": "#fff",
+        "list": [
+            {
+                "pagePath": "pages/work/work",
+                "text": "首页",
+                "iconPath": "/images/tabbar/1.jpg",
+                "selectedIconPath": "/images/tabbar/1.jpg"
+            },
+            {
+                "pagePath": "pages/assistant/assistant",
+                "text": "首页",
+                "iconPath": "/images/tabbar/2.jpg",
+                "selectedIconPath": "/images/tabbar/2.jpg"
+            },
+            {
+                "pagePath": "pages/test1/test1",
+                "text": "首页",
+                "iconPath": "/images/tabbar/3.jpg",
+                "selectedIconPath": "/images/tabbar/3.jpg"
+            },
+            {
+                "pagePath": "pages/test2/test2",
+                "text": "首页",
+                "iconPath": "/images/tabbar/4.jpg",
+                "selectedIconPath": "/images/tabbar/4.jpg"
+            }
+        ]
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}
